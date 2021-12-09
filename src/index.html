@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="header teal darken-4">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="brand-logo">
+          <i class=" material-icons logo">airplanemode_active</i>
+          <a href="#">AviaTickets</a>
+        </div>
+          <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Favourites Ticket</a>
+            <div id='dropdown1' class='dropdown-content  width_450' style.width='400px'>
+            </div>
+          <!-- </div> -->
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <div class="input-field col s12 wrapper">
+                <select id='currency' class="select">
+                  <option value="USD">$ US Dollar</option>
+                  <option value="EUR">€ Euro</option>
+                </select>
+              </div>
+            </li>
+          </ul>
+      </div>
+    <!-- </div> -->
+  </nav>
+  <div class="card-block">
+    <div class="container">
+      <div class="row-card">
+        <div class=" m6 mx-auto">
+          <div class="card  teal darken-4">
+            <form name='ticket-form' action="">
+              <div class="card-content black-text">
+                <span class="card-title">Card Title</span>
+                <div class="input-field">
+                  <input type="text" id="autocomplete-origin" class="autocomplete">
+                  <label for="autocomplete-orogin">Origin</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id="autocomplete-destination" class="autocomplete">
+                  <label for="autocomplete-destination">Destination</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id='datepicker-depart' class="datepicker">
+                  <label for="datepicker-depart">Date depart</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id='datepicker-return' class="datepicker">
+                  <label for="datepicker-return">Date return</label>
+                </div>
+                <div class="card-action card-button">
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Search
+                    <i class="material-icons right">send</i>
+                  </button>
+                  <button class="btn add-btn waves-effect waves-light" type="reset" name="action">Reset
+                    <i class="material-icons right">cancel</i>
+                  </button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tickets-sections">
+    <div class="container">
+      <div class="row">
+
+      </div>
+    </div>
+  </div>
+</body>
+<script>{ document.querySelector('.dropdown-content').style.display = '' }</script>
+
+</html>

@@ -1,0 +1,190 @@
+li {
+    list-style-type: none;
+}
+
+.d-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+
+.mr-auto {
+    margin: auto;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+.header .naw-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header .brand-logo{
+    position: static;
+}
+
+.brand-logo{
+    display: flex;
+}
+
+.select-dropdown{
+    color: #fff;
+}
+
+.header .wrapper .select-dropdown{
+    padding-top: 5px;
+    margin: 0;
+    border-bottom: none;
+}
+
+.header .wrapper .select-dropdown:focus{
+    border-bottom: none;
+}
+
+.header .wrapper .caret{
+    fill: #fff;
+}
+
+.row-card{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.row-ticket{
+    margin: 0 auto;
+}
+
+.row-card .col{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row  .mx-auto{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+
+.datepicker
+{
+    color: #000;
+}
+
+.card-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-block{
+    margin-bottom: 20px;
+}
+
+ .ticket-card {
+    padding: 10px;
+  }
+  
+ .ticket-airline-name {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  
+  .ticket-airline-img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .ticket-destination {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed gray;
+  }
+  
+  .ticket-destination .ticket-city {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+  
+  .ticket-destination i.material-icons {
+    font-size: 26px;
+  }
+  
+  .ticket-time-departure {
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .ticket-price {
+    font-size: 25px;
+    padding: 5px;
+    background: #6a1b9a;
+    color: #fff;
+  }
+  
+  .ticket-additional-info {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .ticket-card .add-favorite {
+    margin-bottom: 50px;
+  }
+  
+  .tickets-empty-res-msg {
+    padding: 10px 15px;
+    text-align: center;
+    background: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ticket-card{
+    width: 450px;
+}
+
+/* .sss{
+    display: flex;
+} */
+
+/* .ssss{
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+} */
+
+.nav-wrapper .dropdown-content {
+    width: 500px !important;
+    color: #000;
+      max-height: 400px;
+      overflow-y: scroll;
+      padding: 10px;
+  }
+  
+.naw-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.dropdown-trigger{
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
